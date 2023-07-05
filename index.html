@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="assets/css/all.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>My Web</title>
+</head>
+
+<body>
+  <!--header-->
+  <header>
+    <div class="nav">
+      <a href="#" class="logo">介紹<span>自己</span>吧</a>
+      <div class="nav-container">
+        <div class="nav-items">
+          <div class="nav-close-btn"><i class='bx bx-x'></i></div>
+          <a href="#home">關於我</a>
+          <a href="#skills">技能</a>
+          <a href="#projects">過去學習</a>
+          <a href="#contact">聯絡我(待完成)</a>
+        </div>
+      </div>
+      <div class="nav-menu-btn"><i class='bx bx-menu'></i></div>
+    </div>
+  </header>
+
+  <!--關於我-->
+  <section class="home" id="home">
+    <div class="home-container">
+      <div class="info-container">
+        <div class="info">
+          <h2>嗨！<span>我是</span></h2>
+          <h1>劉松銘</h1>
+          <p>我仍在<span>學習</span>的路上<span>前進</span>著</p>
+        </div>
+        <div class="home-social-icon">
+          <div class="home-social-items">
+            <a href="https://www.instagram.com/sinnnnned26/"><i class='bx bxl-instagram'></i></a>
+          </div>
+          <div class="home-social-items">
+            <a href="https://www.facebook.com/dennis.liu.52/"><i class='bx bxl-facebook-circle'
+                style='color:#2b7e9a'></i></a>
+          </div>
+          <div class="home-social-items">
+            <a href="mailto:songming1111@gmail.com"><i class='bx bxl-gmail' style='color:#c72f71'></i></a>
+          </div>
+        </div>
+        <div class="home-dialog-show">
+          <button>關於我</button>
+        </div>
+        <dialog class="home-dialog-info">
+          <h1>謝謝你點開並嘗試了解我!</h1>
+          <ul>
+            <li>你好！我是劉松銘，英文名字是Dennis。</li>
+            <li>生日5/28，雙子座。</li>
+            <li>中原大學畢業，已服完四個月兵役。</li>
+            <li>目前正在學習有關前端的知識，無論是前端設計或工程都想涉獵看看，並期許自己未來能蛻變成為一位出色的工程師。
+            </li>
+          </ul>
+          <div class="home-dialog-close">
+            <button class="btn">
+              <p>關閉</p>
+            </button>
+          </div>
+        </dialog>
+      </div>
+      <div class="home-img">
+        <img id="photochange" src="assets/img/dennis2.jpg" alt="dennis">
+      </div>
+    </div>
+  </section>
+  
+  <!--技能-->
+  <section class="skills" id="skills">
+    <div class="skill-title-p-container">
+      <p class="skills-title-p">一步一步點開技能樹</p>
+    </div>
+    <div class="skills-title">
+        <h2 class="skills-title-h2">技能尺</h2>
+    </div>
+    <div class="skills-container">
+      <div class="skills-container-items">
+        <div class="skills-item1">
+          <h3 class="skills-items-h3">前端技能</h3>
+          <div class="skills-bar">
+            <div class="skills-info">
+              <div class="skills-info-sub-title">
+                <h4>HTML</h4>
+                <div class="skill-btn"></div>
+              </div>
+              <p class="skills-num-p">85%</p>
+            </div>
+            <div class="line">
+              <span class="line-html"></span>
+            </div>
+            <p class="showtext">1.對HTML的基本語法、標籤和屬性有一定的了解，能夠建立簡單的網頁，並且熟悉常見的HTML元素和結構。<br>
+              2.能配合CSS、JS，jQuery來設計網頁佈局、特效等，並完成響應式網頁設計。
+            </p>
+          </div>
+
+          <div class="skills-bar">
+            <div class="skills-info">
+              <div class="skills-info-sub-title">
+                <h4>CSS</h4>
+                <div class="skill-btn2"></div>
+              </div>
+              <p>75%</p>
+            </div>
+            <div class="line">
+              <span class="line-css"></span>
+            </div>
+            <p class="showtext2">能將設計稿中所需特效呈現出來，大部分常見切版都能切出來，目前在學習將版面1px都不差呈現在網頁上。正在學習Sass這樣的CSS預處理器，以提高開發效率和維護性。
+            </p>
+          </div>
+
+          <div class="skills-bar">
+            <div class="skills-info">
+              <div class="skills-info-sub-title">
+                <h4>jQuery</h4>
+                <div class="skill-btn3"></div>
+              </div>
+              <p>68%</p>
+            </div>
+            <div class="line">
+              <span class="line-jq"></span>
+            </div>
+            <p class="showtext3">函式庫基本常用的式子熟悉，在利用 jQuery 插件方面有經驗，以增強使用者介面元素，例如彈出視窗和表單驗證等。
+            </p>
+          </div>
+
+          <div class="skills-bar">
+            <div class="skills-info">
+              <div class="skills-info-sub-title">
+                <h4>JavaScript</h4>
+                <div class="skill-btn4"></div>
+              </div>
+              <p>65%</p>
+            </div>
+            <div class="line">
+              <span class="line-js"></span>
+            </div>
+            <p class="showtext4">能懂得基本的event、DOM、物件、陣列與物件運用(JSON)、funtion等使用，並能懂得部分ES6寫法。未來規劃學習AJAX-axios及POST API以及RESTful API。</p>
+            </p>
+          </div>
+
+          <div class="skills-bar">
+            <div class="skills-info">
+              <div class="skills-info-sub-title">
+                <h4>SCSS</h4>
+                <div class="skill-btn5"></div>
+              </div>
+              <p>65%</p>
+            </div>
+            <div class="line">
+              <span class="line-sc"></span>
+            </div>
+            <p class="showtext5">1.明白使用變數管理和重複樣式中的值，方便修改使用等。<br>
+              2.能使用import引入其他scss檔案，便於管理大型專案。<br>
+              3.粗略閱讀過SMACSS的Layout佈局、模組化等及OOCSS的容器內容分離，如grid與內容樣式分離。</p>
+            </p>
+          </div>
+
+          <div class="skills-bar">
+            <div class="skills-info">
+              <div class="skills-info-sub-title">
+                <h4>Bootstrap</h4>
+                <div class="skill-btn6"></div>
+              </div>
+              <p>65%</p>
+            </div>
+            <div class="line">
+              <span class="line-sc"></span>
+            </div>
+            <p class="showtext6">曾經在大學做過的專案中有初步使用過，能理解Bootstrap的網格系統，創建靈活且響應式的佈局。</p>
+            </p>
+          </div>
+        </div>
+
+        <div class="skills-item1">
+          <h3>視覺設計</h3>
+          <div class="skills-bar">
+            <div class="skills-info">
+              <div class="skills-info-sub-title">
+                <h4>Figma</h4>
+                <div class="skill-btn7"></div>
+              </div>
+              <p>70%</p>
+            </div>
+            <div class="line">
+              <span class="line-fi"></span>
+            </div>
+            <p class="showtext7">1.基本畫布和框架的使用。<br>
+              2.使用圖層組織和管理元素。<br>
+              3.能簡單編出完整網頁，目前正在學習如何將網頁內容變得更加豐富，如增加些圖形與色彩搭配。
+            </p>
+          </div>
+
+          <div class="skills-bar">
+            <div class="skills-info">
+              <div class="skills-info-sub-title">
+                <h4>Illutrator</h4>
+                <div class="skill-btn8"></div>
+              </div>
+              <p>65%</p>
+            </div>
+            <div class="line">
+              <span class="line-il"></span>
+            </div>
+            <p class="showtext8">1.能使用圖層讓結構便於管理。<br>
+              2.能用illustrator設計較複雜的視覺圖像及網頁元素視覺表現
+            </p>
+          </div>
+
+          <div class="skills-bar">
+            <div class="skills-info">
+              <div class="skills-info-sub-title">
+                <h4>Photoshop</h4>
+                <div class="skill-btn9"></div>
+              </div>
+              <p>60%</p>
+            </div>
+            <div class="line">
+              <span class="line-ae"></span>
+            </div>
+            <p class="showtext9">會拿來做圖片修飾，如banner的背景圖片等。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--作品-->
+  <section class="projects" id="projects">
+    <div class="projects-title-p-container">
+      <p class="projects-title-p">大學時期的懵懵懂懂</p>
+    </div>
+    <div class="projects-title">
+        <h2 class="projects-title-h2">過去學習</h2>
+    </div>
+    <div class="projects-container">
+      <div class="projects-container-items">
+        <a href="https://10744226.github.io/mid/"><div class="projects-item1">
+          <img src="assets/img/midterm.PNG" alt="midterm">
+          <h3>多媒體網頁期中作品</h3>
+          <p>期中介紹自己學校任一區域，我們選擇了體育館，和其他四個人合作一起做網頁，也有拍影片做介紹。</p>
+        </div>
+        </a>
+        <a href="https://10744226.github.io/resume/"><div class="projects-item1">
+          <img src="assets/img/resume.PNG" alt="midterm">
+          <h3>多媒體網頁履歷</h3>
+          <p>製作自己的履歷內容，當初內容要包含程式能力進度條、生活照，是我第一次嘗試側邊nav的作品。</p>
+        </div>
+        </a>
+        <a href="https://10744226.github.io/110final/index.html"><div class="projects-item1">
+          <img src="assets/img/final.PNG" alt="midterm">
+          <h3>多媒體網頁電商</h3>
+          <p>期末與和另一位同學製作電商網頁，還有另外兩位搭檔負責連資料庫的部分。我負責商品總頁、商品購買頁、購物車、個人資料頁。</p>
+        </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--頁尾-->
+  <footer>
+      <div class="footer-container">
+        <ul class="footer-items">   
+          <a href=""><img src="./assets/img/icons8-instagram-96.png" alt=""></li></a>
+          <a href=""><img src="./assets/img/icons8-facebook-40.png" alt=""></li></a>
+          <a href=""><img src="./assets/img/icons8-gmail-96.png" alt=""></li></a>
+        </ul>
+      </div>
+  </footer>
+
+  <script type="text/javascript" src="assets/js/all.js"></script>
+</body>
+
+</html>
